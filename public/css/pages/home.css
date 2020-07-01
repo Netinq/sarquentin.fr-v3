@@ -1,0 +1,39 @@
+#home #banner
+{
+    position: relative;
+    height: 42.5vh;
+    width: 100vw;
+    background-color: #FCF084;
+    padding: 0;
+    margin: 0;
+}
+#home #banner #title
+{
+    padding: 0;
+    margin: 0;
+    padding-left: 7vw;
+    padding-top: 7vh;
+}
+#home #banner #title h2
+{
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+#home #banner #title h3
+{
+    color: #343434;
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    margin-left: 5px;
+}
+#home #banner #profil
+{
+    height: 100%;
+    background-color: #FFF597;
+    padding: 0;
+    margin: 0;
+}

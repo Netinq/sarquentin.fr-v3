@@ -1,0 +1,53 @@
+header
+{
+    background-color: #ffffff;
+    height: 9vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0 !important;
+}
+#flex-menu
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+.flex-item
+{
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 9vh;
+    text-transform: uppercase;
+    color: #343434;
+    transition: all .3s;
+}
+.flex-item:hover
+{
+    background-color: #FFF597;
+    color: #ffffff;
+}
+#personal-informations
+{
+    display: flex;
+    flex: 1 0;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF597;
+    height: 100%;
+    position: relative;
+}
+#personal-informations > * {
+  flex: 1 0;
+}
+.info-item
+{
+    height: 100%;
+    text-align: center;
+    line-height: 9vh;
+    text-transform: uppercase;
+    color: #343434;
+    transition: all .3s;
+}
